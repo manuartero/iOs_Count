@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UITextField *output_text;
+}
+- (IBAction)add_button:(id)sender;
 
 @end
