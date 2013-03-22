@@ -15,5 +15,6 @@
     NumberStore* numberStore;
 }
 - (IBAction)add_button:(id)sender;
+- (IBAction)mul_button:(id)sender;
 
 @end

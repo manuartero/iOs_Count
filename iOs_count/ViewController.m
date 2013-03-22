@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    // instanciate NumberStore object
     numberStore = [[NumberStore alloc] init];
 }
 
@@ -49,5 +50,19 @@
     output_text.text = output;
     [output release];
 }
+
+- (IBAction)mul_button:(id)sender
+{
+    // get n; set n*2
+    int n = [numberStore number];
+    n = n*2;
+    [numberStore setNumber:n];
+    
+    // text should be a NSString*
+    NSString* output = [[NSString alloc] initWithFormat:@"%d", n];
+    output_text.text = output;
+    [output release];
+}
+
 
 @end
