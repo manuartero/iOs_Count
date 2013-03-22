@@ -18,15 +18,14 @@
     return self;
 }
 
--(NSNumber*) number
+-(int) number
 {
     return number;
 }
 
--(void) setNumber : (NSNumber*)input
+-(void) setNumber : (int)input
 {
-    [number autorelease];
-    number = [input retain];
+    number = input;
 }
 
 @end

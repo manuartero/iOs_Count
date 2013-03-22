@@ -20,6 +20,7 @@
 		3F3CE01A16FCAF4400BE1D45 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE01816FCAF4400BE1D45 /* ViewController.xib */; };
 		3F3CE02116FCB21800BE1D45 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE02016FCB21800BE1D45 /* background.png */; };
 		3F3CE02516FCB4BD00BE1D45 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE02416FCB4BD00BE1D45 /* Icon.png */; };
+		3FAE858716FCD016004C251F /* NumberStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE858616FCD016004C251F /* NumberStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		3F3CE01916FCAF4400BE1D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		3F3CE02016FCB21800BE1D45 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		3F3CE02416FCB4BD00BE1D45 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3FAE858516FCD016004C251F /* NumberStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberStore.h; sourceTree = "<group>"; };
+		3FAE858616FCD016004C251F /* NumberStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 		3F3CE00316FCAF4400BE1D45 /* iOs_count */ = {
 			isa = PBXGroup;
 			children = (
+				3FAE858516FCD016004C251F /* NumberStore.h */,
+				3FAE858616FCD016004C251F /* NumberStore.m */,
 				3F3CE00C16FCAF4400BE1D45 /* AppDelegate.h */,
 				3F3CE00D16FCAF4400BE1D45 /* AppDelegate.m */,
 				3F3CE01516FCAF4400BE1D45 /* ViewController.h */,
@@ -184,6 +189,7 @@
 				3F3CE00A16FCAF4400BE1D45 /* main.m in Sources */,
 				3F3CE00E16FCAF4400BE1D45 /* AppDelegate.m in Sources */,
 				3F3CE01716FCAF4400BE1D45 /* ViewController.m in Sources */,
+				3FAE858716FCD016004C251F /* NumberStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				3F3CE01F16FCAF4400BE1D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

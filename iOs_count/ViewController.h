@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NumberStore.h"
 
 @interface ViewController : UIViewController
 {
     IBOutlet UITextField *output_text;
+    NumberStore* numberStore;
 }
 - (IBAction)add_button:(id)sender;
 

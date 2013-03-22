@@ -10,12 +10,12 @@
 
 @interface NumberStore : NSObject
 {
-    NSNumber* number;
+    int number;
 }
 
--(id) init;                             // init
--(NSNumber*) number;                    // get number
--(void) setNumber : (NSNumber*)input;   // set number
+-(id) init;                       // init
+-(int) number;                    // get number
+-(void) setNumber : (int)input;   // set number
 
 @end
 

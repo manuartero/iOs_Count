@@ -31,12 +31,14 @@
 - (void)dealloc
 {
     [output_text release];
+    [numberStore release];
     [super dealloc];
 }
 
 - (IBAction)add_button:(id)sender
 {
-    //TODO
+    int n = [numberStore number];
+    [numberStore setNumber:(n+1)];
 }
 
 @end
