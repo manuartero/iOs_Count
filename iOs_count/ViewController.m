@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    numberStore = [[NumberStore alloc] init];
 }
 
 /*
@@ -37,8 +39,15 @@
 
 - (IBAction)add_button:(id)sender
 {
+    // get n; set n+1
     int n = [numberStore number];
-    [numberStore setNumber:(n+1)];
+    n = n+1;
+    [numberStore setNumber:n];
+    
+    // text should be a NSString*
+    NSString* output = [[NSString alloc] initWithFormat:@"%d", n];
+    output_text.text = output;
+    [output release];
 }
 
 @end
