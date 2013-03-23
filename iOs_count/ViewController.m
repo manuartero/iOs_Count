@@ -8,19 +8,20 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
+@interface ViewController () @end
 
 @implementation ViewController
+@synthesize output_text;
+
+// ------------------------------
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
-    // instanciate NumberStore object
-    numberStore = [[NumberStore alloc] init];
+	// Additional setup after loading the view
+    // 1) instanciate NumberStore object
+    self->numberStore = [[NumberStore alloc] init];
 }
 
 /*

@@ -11,9 +11,13 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet UITextField *output_text;
+    IBOutlet UITextField* output_text;
     NumberStore* numberStore;
 }
+// properties of the <Interface Builder> objects
+@property(nonatomic, retain) IBOutlet UITextField* output_text;
+
+// instance methods
 - (IBAction)add_button:(id)sender;
 - (IBAction)mul_button:(id)sender;
 
